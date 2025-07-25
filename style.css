@@ -111,3 +111,12 @@ footer {
     width: 100%;
   }
 }
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: auto; /* Optional: controls max display size */
+  display: block;
+  margin: 0 auto; /* centers the image */
+  border-radius: 12px; /* for a rounded modern look */
+}
