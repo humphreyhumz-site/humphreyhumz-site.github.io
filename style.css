@@ -118,5 +118,5 @@ footer {
   max-width: auto; /* Optional: controls max display size */
   display: block;
   margin: 0 auto; /* centers the image */
-  border-radius: 100px; /* for a rounded modern look */
+  border-radius: 12px; /* for a rounded modern look */
 }
