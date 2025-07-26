@@ -142,25 +142,4 @@ footer {
   max-width: 300px;
 }
 
-  @media (max-width: 768px) {
-    #nav-links {
-      display: none;
-      flex-direction: column;
-      background-color: #111;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      width: 100%;
-      padding: 10px 0;
-      text-align: center;
-    }
-
-    #menu-toggle {
-      display: block;
-    }
-
-    #nav-links a {
-      padding: 10px 0;
-      border-top: 1px solid #333;
-    }
-  }
+ 
