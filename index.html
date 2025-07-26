@@ -26,36 +26,13 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-<script>
-  const toggle = document.getElementById('menu-toggle');
-  const navLinks = document.getElementById('nav-links');
-
-  toggle.addEventListener('click', () => {
-    if (navLinks.style.display === 'flex') {
-      navLinks.style.display = 'none';
-    } else {
-      navLinks.style.display = 'flex';
-    }
-  });
-</script>
-
-<!-- Responsive Navbar -->
-<nav style="background-color:#111; padding:10px 20px; display:flex; justify-content:space-between; align-items:center; color:#fff; position:sticky; top:0; z-index:999;">
-  <div style="font-size:20px; font-weight:bold;">Humphrey Humz</div>
-
-  <!-- Hamburger Icon -->
-  <div id="menu-toggle" style="font-size:24px; cursor:pointer; display:none;">
-    ☰
-  </div>
-
-  <!-- Nav Links -->
-  <div id="nav-links" style="display:flex; gap:15px;">
-    <a href="#home" style="color:#fff; text-decoration:none;">Home</a>
-    <a href="#music" style="color:#fff; text-decoration:none;">Music</a>
-    <a href="#about" style="color:#fff; text-decoration:none;">About</a>
-    <a href="#contact" style="color:#fff; text-decoration:none;">Contact</a>
-    <a href="https://facebook.com/humphrey.sakala.7773" target="_blank" style="color:#fff;">Facebook</a>
-    <a href="https://instagram.com/humphrey_sakala" target="_blank" style="color:#fff;">Instagram</a>
+<nav style="background-color: #111; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; color: #fff;">
+  <div style="font-size: 24px; font-weight: bold;">Humphrey Humz</div>
+  <div>
+    <a href="#home" style="color: #fff; margin: 0 10px; text-decoration: none;">Home</a>
+    <a href="#music" style="color: #fff; margin: 0 10px; text-decoration: none;">Music</a>
+    <a href="#about" style="color: #fff; margin: 0 10px; text-decoration: none;">About</a>
+    <a href="#contact" style="color: #fff; margin: 0 10px; text-decoration: none;">Contact</a>
   </div>
 </nav>
 	
